@@ -4,7 +4,7 @@
 
 
 ### Intro
-I've been developing applications for create-react-app.   However, I could not use that code to build a component for use as an NPM module.
+I've been developing applications with create-react-app.   However, I could not use it to build a component for use as an NPM module.
 There are many tutorials about how to do this, but I wanted a simpler "just copy this" repo to pull from.
 This repo is based off of the work by: gokulkrishh.
 
