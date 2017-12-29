@@ -1,19 +1,18 @@
-# [React ES6 ComponentModule](https://gokulkrishh.github.io/create-react-component/) [![Build Status](https://travis-ci.org/gokulkrishh/create-react-component.svg?branch=master)](https://travis-ci.org/gokulkrishh/create-react-component)
+# [React ES6 Template Component](https://github.com/jason-henriksen/react-es6-npm-component-template) 
 
 *Empty ES6 npm component module for react.  Starter for your own npm module deployment.*
 
 
-
 ### Intro
-I've been developing applications for create-react-app, but I could not use that to build a component that I want to publish as an NPM module.
-There are many tutorials about how to do this, but I wanted a simpler, "let's just do it" repo to pull from.
-This repo is based off of the pre-ES6 work here: https://gokulkrishh.github.io/create-react-component
+I've been developing applications for create-react-app.   However, I could not use that code to build a component for use as an NPM module.
+There are many tutorials about how to do this, but I wanted a simpler "just copy this" repo to pull from.
+This repo is based off of the work by: gokulkrishh.
 
 
 ##### 1. Clone the repository
 
 ```bash
-git clone https://github.com/gokulkrishh/create-react-component newCompName
+git clone https://github.com/jason-henriksen/react-es6-npm-component-template.git newComp
 ```
 
 ##### 2. Make it as your own repository
@@ -39,8 +38,7 @@ npm install
 ├── src/
 │   └── index.js
 │   └── styles.css
-└── package.json
-└── webpack.build.config.js
+├── package.json
 └── webpack.config.js
 ```
 
@@ -56,15 +54,14 @@ npm install
 
 - `Travis CI` support.
 
-- Deploy demo page to `gh-pages`.
 
 ### Make it as your own component
 
-- In package.json file change the name from `create-react-component` to `your-component-name`.
+- In package.json file change the name from `react-es6-npm-component-template` to `your-component-name`.
 
-- Search for `HelloWorld` and replace it with `your component name`.
+- Open src/index.js and make it behave as your component needs to.
 
-### [Available scripts](https://github.com/gokulkrishh/create-react-component/blob/master/package.json#L28)
+### Available scripts
 
 - `npm run start`  - To start webpack dev-server.
 
@@ -80,6 +77,7 @@ npm install
 ### [Publish as node module](https://docs.npmjs.com/getting-started/creating-node-modules)
 
 ```bash 
+npm login
 npm publish
 ```
 
