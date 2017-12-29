@@ -55,7 +55,7 @@ npm install
 - `Travis CI` support.
 
 
-### Make it as your own component
+### Make it your own component
 
 - In package.json file change the name from `react-es6-npm-component-template` to `your-component-name`.
 
