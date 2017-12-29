@@ -15,7 +15,7 @@ This repo is based off of the work by: gokulkrishh.
 git clone https://github.com/jason-henriksen/react-es6-npm-component-template.git newComp
 ```
 
-##### 2. Make it as your own repository
+##### 2. Make it your own repository
 
 ```bash 
 rm -rf .git
